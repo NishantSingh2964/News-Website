@@ -27,7 +27,7 @@ const Navbar = ({ setCategory, setCountry }) => {
   };
 
   return (
-    <nav className="bg-white border-b border-gray-200 dark:bg-gray-900 dark:border-gray-700 relative z-50">
+    <nav className="sticky top-0 bg-white border-b border-gray-200 dark:bg-gray-900 dark:border-gray-700 relative z-50 shadow">
       <div className="max-w-screen-xl mx-auto flex items-center justify-between p-4">
         {/* Logo */}
         <a href="/" className="flex items-center space-x-2">
